@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.Container {
+    margin-left: 153px;
+    margin-right: 153px;
+    align-items: center;
+}
+
+.Revers_Container{
+    padding-left: 153px;
+    padding-right: 153px;
+}
+
+.Header_Container{
+    padding-left: 153px;
+    padding-right: 153px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 13px;
+}
+
+.Menu-href{
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.silka-item, a{
+    list-style-type: none;
+    color: #878787;
+    padding-left: 15px;
+   
+}
+
+.Article_Right{
+    display: flex;
+    flex-direction: row;
+}
+
+.Menu-info{
+    margin-right: 42px;
+    width: 157px;
+}
+
+.Menu-info p{
+    padding-bottom: 31px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.Menu-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    color: #8191A6;
+}
+
+.Article_Left{
+    margin-right: 224px;
+    color: #8191A6;
+    font-size: 14px;
+}
+
+.Article_Left .text{
+    padding-bottom: 20px;
+}
+
+.Article_Left .CopyRight{
+    padding-top: 50px;
+}
+
+.zxc{
+    padding-top: 10px;
+}
+
+.header-button{
+    background-color: orange;
+    border-radius: 6px;
+    border: 0px;
+    width: 180px;
+    height: 24px;
+    align-items: center;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.Zagalovok{
+    font-size: 56px;
+    color: white;
+}
+
+.TextInfo{
+    font-size: 20px;
+    color: white;
+    
+}
+
+.Nach_Str{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Image_Main{
+    width: 100%;
+    height: 800px;
+    filter: brightness(60%);
+    position: absolute; 
+    margin-bottom: 40px;
+    display: block;
+} 
+
+.Zagalovok_text{
+    font-size: 25px;
+    position: relative;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+    margin-top: 250px;
+    padding-bottom: 15px;
+}
+
+.text_TextInfo {
+    width: 743px;
+    height: 60px;
+    font-size: 20px;
+    position: relative; 
+    text-align: center;
+    padding-bottom: 45px;
+    color: rgb(255, 255, 255);
+}
+
+.Catalog{
+    margin-top: 25px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #fff;
+    position: absolute;
+    padding: 5px 15px 5px 15px;
+}
+
+.Preimusch{
+    padding-top: 402px;
+}
+
+.Nazvanie {
+    padding-bottom: 60px;
+    font-size: 34px;
+}
+
+.Text_Item{
+    width: 1067px;
+    height: 180px;
+    font-size: 20px;
+}
+
+
+.Podpisi{
+    display: flex;
+    align-items:center;
+}
+
+.Podpisi-item {
+    padding-left: 165px;
+    font-size: 20px;
+    width: 300px;
+    height: 172px;
+}
+
+.Podpisi p{
+    padding-top: 28px;
+}
+
+.Podpisi-item img{
+    width: 136px;
+    height: 120px;
+}
+
+.image {
+    display: flex;
+    margin-left: 90px;
+}
+
+.session_O_nas{
+    margin-top: 90px;
+    
+}
+
+.Input_Text {
+    width: 330px;
+    height: 50px;
+    margin-right: 57px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.Inpute_Info{
+    background-color: orange;
+    height: 95px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.Inpute::placeholder{
+    color: white;
+    font-size: 14px;
+    background: none;
+    padding-left: 27px;
+}
+
+
+
+.Inpute{
+    width: 210px;
+    height: 40px;
+    margin-right: 44px;
+    border: 1px solid white;
+    background:none;
+    padding:0;
+    outline:none;
+    cursor: line;
+}
+
+.sucrube{
+    color: black;
+    background-color: white;
+    border: 0;
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.Sessiob_Osobennsoti{
+    font-size: 20px;
+}
+
+.Sessiob_Osobennsoti .Nazvanie{
+    margin-top: 89px;
+}
+
+.Secsion_Catalog{
+    margin-top: 60px;
+    background-color: #FBFBFB;
+    width: 100%;
+}
+
+.Secsion_Catalog .Nazvanie{
+    padding-bottom: 0px;
+}
+
+.item-href{
+    font-size: 16px;
+    color: black;
+    padding-right: 22px;
+}
+
+.filter{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+    padding-right: 50px;
+}
+
+.ticket{
+    color: white;
+    background-color: orange;
+    width: 106px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.Card{
+    width: 361px;
+    height: 465px;
+    background-color: #FFFFFF;
+    margin-right: 75px;
+}
+
+.Text_Card{
+    font-size: 22px;
+    padding-left: 13px;
+    padding-bottom: 28px;
+}
+
+.Cost{
+    font-size: 24px;
+    padding-left: 13px;
+    font-weight: bolder;
+}
+
+.Catalog_Card{
+    display: flex;
+}
+
+.Card img{
+    width: 250px;
+    height: 250px;
+    /* display: blocл; */
+    float: none;
+    padding-left: 35px;
+    padding-bottom: 44px;
+}
+
+.Card-list{
+    padding-left: 153px;
+    display: flex;
+    justify-content: space-around
+}
+
+.Secsion_Consiltation{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.Structure{
+    display: flex;
+    justify-content: space-between
+}
+
+.Sotridniki{
+    display: flex;
+    margin-right: 20px;
+}
+
+.sotrudniki-image{
+    width: 250px;
+    height: 250px;
+}
+
+.info-sotrudniki{
+    padding-left: 40px;
+}
+
+.Sotridnik-button{
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border-color: none;
+    border: 0px;
+}
+
+.Secsion_Poles-Info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Secsion_Poles-Info img{
+    width: 300px;
+    position: absolute;
+    filter: brightness(60%);
+}
+
+.Text_Photo{
+    position: relative;
+    margin-right: 50px;
+    width: 300px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.Brend {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #e9e9e9;
+}
+
+.Brend-link {
+    text-decoration: none;
+    color: #707070;
+}
+
+.Brend-item {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.Plus_Minus ul{
+    padding: 0;
+    list-style-type: none;
+    padding-right: 120px;
+    line-height: 30px;
+}
+
+.Plus_Minus {
+    display: flex;
+}
+
+
+.Minus li::before{
+    content: "- "; 
+}
+
+.Plus li::before{
+    content: "+ ";
+}
+
+
+
+
+
+
+footer{
+    margin-top: 280px;
+    display: flex;
+    background: #fbfbfb;
+    height: 315px;
+    padding-top: 62px;
+}
